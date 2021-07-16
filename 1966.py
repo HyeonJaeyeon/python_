@@ -3,7 +3,7 @@ N = int(input())
 euna = []
 for i in range(N):
     num = map(int,input().split())
-    test = list(map(int,input().split())
+    test = list(map(int,input().split()))
     a = list(range(len(test)))
     a[num[1]] = 'last'
 
